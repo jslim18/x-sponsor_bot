@@ -572,8 +572,8 @@ def search_keyboard(offset, show_download, disabled_attachments, confirmed, quer
             callback_data='act=new%' + data
         ),
         InlineKeyboardButton(
-            text=(Emoji.THUMBS_UP_SIGN + ' Like') if not confirmed else
-            (Emoji.THUMBS_DOWN_SIGN + ' Unlike'),
+            text=(Emoji.THUMBS_UP_SIGN + Emoji.THUMBS_UP_SIGN + Emoji.THUMBS_UP_SIGN) if not confirmed else
+            ('Unliked'),
             callback_data='act=confirm%' + data
         ),
         InlineKeyboardButton(
@@ -609,7 +609,7 @@ def download_db(bot, update):
         return
     bot.sendChatAction(chat_id, action=ChatAction.UPLOAD_DOCUMENT)
     bot.sendDocument(chat_id, document=open(DB_NAME, 'rb'),
-                     filename='trustworthy.sqlite',
+                     filename='distributors.sqlite',
                      reply_to_message_id=update.message.message_id)
 
 
