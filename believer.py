@@ -34,9 +34,9 @@ class Believer(db.Entity):
         }
 
         s = ("<b>Distributor #{id}</b>\n"
-             "_____________________\n"
              "<b>[</b>{account_nr}<b>]</b>\n"
              "Updated: {phone_nr}\n"
+             "_____________________\n"
              "Dealership:\n {bank_name}\n"
              "<b>==></b> {remark}\n"
              "Voted by: {reported_by}\n"
