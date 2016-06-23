@@ -1,4 +1,4 @@
-# cerebros_bot
+# x-sponsor_bot
 A Telegram bot to get sponsors in IT Group Buy Community
 
 To run the bot yourself, you will need: 
