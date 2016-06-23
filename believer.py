@@ -33,12 +33,12 @@ class Believer(db.Entity):
             'added_by': self.added_by
         }
 
-        s = ("<b>Report #{id}</b>\n"
-             "Phone Nr.: {phone_nr}\n"
-             "Bank Account Nr.: {account_nr}\n"
-             "Bank Account Name: {bank_name}\n"
-             "Admin remark: {remark}\n"
-             "Reported by: {reported_by}\n"
+        s = ("<b>Distributor #{id}</b>\n"
+             "Last updated: {phone_nr}\n"
+             "<font bgcolor='yellow'>{account_nr}</font>\n"
+             "Dealership:\n {bank_name}\n"
+             "<b>==></b>: {remark}\n"
+             "Voted by: {reported_by}\n"
              "Added by: {added_by}").format(
                 **{k: escape_html(str(v)) for (k, v) in params.items()}
             )
