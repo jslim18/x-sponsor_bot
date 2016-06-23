@@ -627,7 +627,7 @@ dp.add_handler(CommandHandler('download_database', download_db))
 dp.add_handler(CommandHandler('cancel', cancel))
 dp.add_handler(MessageHandler([Filters.text, Filters.photo, Filters.document],
                              message_handler))
-dp.addErrorHandler(error)
+dp.add_ErrorHandler(error)
 
 start_bot(u)
 u.idle()
