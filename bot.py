@@ -68,7 +68,7 @@ if BOTAN_TOKEN:
     botan = Botan(BOTAN_TOKEN)
 
 help_text = "This bot keeps a database of well known dealers in product distribution " \
-            "of IT Group Buy Community at dealer price.\n\n" \
+            "of IT Group Buy Community at wholesale price.\n\n" \
             "<b>Usage:</b>\n" \
             "/search - Search the database for reports\n\n" \
             "Donations via BTC are welcome: 1EPu17mBM2zw4LcupURgwsAuFeKQrTa1jy"
