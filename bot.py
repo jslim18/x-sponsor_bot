@@ -67,8 +67,8 @@ botan = False
 if BOTAN_TOKEN:
     botan = Botan(BOTAN_TOKEN)
 
-help_text = "This bot keeps a database of known trustworthy bitcoin traders by recording " \
-            "their phone number, bank account number and name.\n\n" \
+help_text = "This bot keeps a database of well known dealers in product distribution " \
+            "of IT Group Buy Community at dealer price.\n\n" \
             "<b>Usage:</b>\n" \
             "/search - Search the database for reports\n\n" \
             "Donations via BTC are welcome: 1EPu17mBM2zw4LcupURgwsAuFeKQrTa1jy"
