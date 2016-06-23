@@ -1,5 +1,5 @@
 # cerebros_bot
-A Telegram bot to track activity of trustworthy bitcoin traders
+A Telegram bot to get sponsors in IT Group Buy Community
 
 To run the bot yourself, you will need: 
 - Python (tested with 3.4)
